@@ -1,8 +1,6 @@
-[![Build Status](https://snap-ci.com/geb/geb-example-maven/branch/master/build_image)](https://snap-ci.com/geb/geb-example-maven/branch/master)
-
 # Description
 
-This is a simple example project for using Geb with Maven. It is setup to use Firefox driver.
+Comes from [geb example maven](https://github.com/geb/geb-example-maven)
 
 # Usage
 
