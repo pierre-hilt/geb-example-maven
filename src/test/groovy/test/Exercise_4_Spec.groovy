@@ -2,10 +2,6 @@ package test
 
 class Exercise_4_Spec extends BaseSpec {
 
-  def setupSpec() {
-    go "file:///${System.getProperty("user.dir").replace("\\", "/")}/src/main/display_none_element.html"
-  }
-
   def "Click a button than will display a hidden element"() {
     setup:
       go "file:///${System.getProperty("user.dir").replace("\\", "/")}/src/main/display_none_element.html"
