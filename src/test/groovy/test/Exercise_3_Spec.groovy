@@ -1,6 +1,6 @@
 package test
 
-class Exercice_5_Spec extends BaseSpec {
+class Exercise_3_Spec extends BaseSpec {
 
   def setupSpec() {
     go "file:///${System.getProperty("user.dir").replace("\\", "/")}/src/main/todo_timeout.html"

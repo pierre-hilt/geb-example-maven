@@ -1,6 +1,6 @@
 package test
 
-class Exercice_4_Spec extends BaseSpec {
+class Exercise_2_Spec extends BaseSpec {
 
   def setupSpec() {
     go "file:///${System.getProperty("user.dir").replace("\\", "/")}/src/main/todo.html"

@@ -1,6 +1,6 @@
 package test
 
-class Exercice_1_Spec extends BaseSpec {
+class Exercise_1_Spec extends BaseSpec {
 
   def setupSpec() {
     go "http://gebish.org"
