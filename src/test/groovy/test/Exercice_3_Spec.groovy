@@ -1,8 +1,10 @@
 package test
 
-import geb.spock.GebReportingSpec
+class Exercice_3_Spec extends BaseSpec {
 
-class Exercice_3_Spec extends GebReportingSpec {
+  def setupSpec() {
+    go "http://gebish.org"
+  }
 
   def "Access a span displayed when a button is clicked"() {
   }

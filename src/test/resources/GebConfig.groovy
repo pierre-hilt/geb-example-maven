@@ -8,4 +8,4 @@ import org.openqa.selenium.firefox.FirefoxDriver
 
 driver = { new FirefoxDriver() }
 
-baseUrl = "http://gebish.org"
+atCheckWaiting = true
