@@ -1,7 +1,7 @@
 package page
 
-import geb.Page
+class GebishOrgHomePage extends GebishAbstractPage {
 
-class GebishOrgHomePage extends Page {
+  static at = { firstTitle == "What is it?" }
 
 }
