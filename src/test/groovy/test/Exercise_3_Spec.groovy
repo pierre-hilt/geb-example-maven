@@ -11,9 +11,4 @@ class Exercise_3_Spec extends BaseSpec {
     and: "Send enter key to create task"
     then: "Task is created"
   }
-
-  def "Delete the task"() {
-    when: "Click to delete a task"
-    then: "Task is deleted"
-  }
 }
